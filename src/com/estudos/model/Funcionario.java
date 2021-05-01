@@ -23,9 +23,9 @@ public class Funcionario {
     }
 
     public Funcionario(String nome, double salario, String cpf) {
-        this.cpf = cpf;
-        this.salario = salario;
         this.nome = nome;
+        this.salario = salario;
+        this.cpf = cpf;
     }
 
     public String getNome() {
