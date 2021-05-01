@@ -9,6 +9,7 @@ public class Funcionario {
     private String cpf;
     private double salario;
     private Cargo cargo;
+    private int numero;
 
     public Cargo getCargo() {
         return cargo;
