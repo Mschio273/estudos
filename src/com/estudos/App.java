@@ -20,7 +20,7 @@ public class App {
 
         for(Funcionario funcionario : funcionarios) {
             if (funcionario.getCargo().equals(Cargo.VENDEDOR)) {
-                System.out.println(funcionario.getNome());
+                System.out.println(funcionario.getNomeFuncionario());
                 System.out.println(funcionario.getSalario());
             }
         }
