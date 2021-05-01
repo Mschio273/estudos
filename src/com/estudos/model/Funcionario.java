@@ -4,6 +4,7 @@ import com.estudos.enumerator.Cargo;
 
 public class Funcionario {
 
+    private String nomeFuncionario;
     private String nome;
     private String cpf;
     private double salario;
@@ -17,23 +18,24 @@ public class Funcionario {
         this.cargo = cargo;
     }
 
-    public Funcionario(String nome, double salario) {
-        this.nome = nome;
+    public Funcionario(String nomeFuncionario, double salario) {
+        this.nomeFuncionario = nomeFuncionario;
         this.salario = salario;
     }
 
-    public Funcionario(String nome, double salario, String cpf) {
-        this.nome = nome;
+    public Funcionario(String nomeFuncionario, double salario, String cpf) {
+        this.nomeFuncionario = nomeFuncionario;
         this.salario = salario;
         this.cpf = cpf;
+        this.nome = nomeFuncionario;
     }
 
-    public String getNome() {
-        return nome;
+    public String getNomeFuncionario() {
+        return nomeFuncionario;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNomeFuncionario(String nomeFuncionario) {
+        this.nomeFuncionario = nomeFuncionario;
     }
 
     public String getCpf() {
